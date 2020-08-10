@@ -95,7 +95,7 @@ jdbc:sqlserver://;servername=server_name;integratedSecurity=true;authenticationS
 ##  <a name="connecting-with-integrated-authentication-on-windows"></a><a name="Connectingintegrated"></a> Windows 上で統合認証を使用する接続  
  JDBC ドライバーでは、integratedSecurity 接続文字列プロパティを通じて、Windows オペレーティング システム上でのタイプ 2 の統合認証の使用がサポートされています。 統合認証を使用するには、JDBC ドライバーがインストールされているコンピューターの Windows システム パス上のディレクトリに mssql-jdbc_auth-\<バージョン>-\<arch>.dll ファイルをコピーします。  
   
- mssql-jdbc_auth-\<バージョン>-\<arch>.dl ファイルは次の場所にインストールされます。  
+ mssql-jdbc_auth-\<バージョン>-\<arch>.dll ファイルは次の場所にインストールされます。  
   
  \<"*インストール ディレクトリ*">\sqljdbc_\<"*バージョン*">\\<"*言語*">\auth\  
   
